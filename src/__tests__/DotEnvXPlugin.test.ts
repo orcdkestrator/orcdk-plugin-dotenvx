@@ -1,12 +1,12 @@
-import { DotEnvXPlugin } from '../index';
+import { DotenvxPlugin } from '../index';
 
-describe('DotEnvXPlugin', () => {
+describe('DotenvxPlugin', () => {
   it('should be defined', () => {
-    expect(DotEnvXPlugin).toBeDefined();
+    expect(DotenvxPlugin).toBeDefined();
   });
 
   it('should have correct name', () => {
-    const plugin = new DotEnvXPlugin();
+    const plugin = new DotenvxPlugin();
     expect(plugin.name).toBe('dotenvx');
   });
 });

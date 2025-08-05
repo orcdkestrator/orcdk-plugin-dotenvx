@@ -37,8 +37,7 @@
   "homepage": "https://github.com/orcdkestrator/orcdk-plugin-dotenvx#readme",
   "license": "MIT",
   "dependencies": {
-    "@dotenvx/dotenvx": "^1.41.0",
-    "@orcdkestrator/core": "^1.0.0"
+    "@dotenvx/dotenvx": "^1.41.0"
   },
   "peerDependencies": {
     "@orcdkestrator/core": "^1.0.0"
