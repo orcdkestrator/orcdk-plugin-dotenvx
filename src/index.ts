@@ -1,19 +1,13 @@
 /* eslint-disable no-console */
 import { Plugin, PluginConfig, OrcdkConfig, EnvironmentConfig, EventBus, EventTypes, OrcdkEvent } from '@orcdkestrator/core';
-import * as fs from 'fs';
-import * as path from 'path';
-
-// Read version from package.json
-const packageJsonPath = path.join(__dirname, '../..', 'package.json');
-const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf-8'));
 
 /**
  * Dotenvx plugin for environment variable management
  * Uses configuration-based environment detection instead of hardcoded "local"
  */
 export class DotenvxPlugin implements Plugin {
-  public readonly name = '@orcdkestrator/dotenvx';
-  public readonly version = packageJson.version;
+  public readonly name = '@orcdkestrator/orcdk-plugin-dotenvx';
+  public readonly version = '1.0.0';
   
   private config: PluginConfig | null = null;
   private orcdkConfig: OrcdkConfig | null = null;

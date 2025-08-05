@@ -7,6 +7,6 @@ describe('DotenvxPlugin', () => {
 
   it('should have correct name', () => {
     const plugin = new DotenvxPlugin();
-    expect(plugin.name).toBe('dotenvx');
+    expect(plugin.name).toBe('@orcdkestrator/orcdk-plugin-dotenvx');
   });
 });
